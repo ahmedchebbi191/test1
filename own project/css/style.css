@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Source Code Pro', monospace;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #2D3032;
+}
+
+.back {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/img/wallpaperflare.com_wallpaper.jpg);
+}
+
+.title {
+    font-size: 25px;
+    letter-spacing: 6px;
+    color: #fff;
+    text-align: center;
+    padding-top: 150px;
+}
+
+strong{
+    border-bottom: 3px solid #3498db;
+}
+
+lord-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.bttn {
+    scroll-behavior: smooth;
+    font-size: 30px;
+    width: 100px;
+    position: relative;
+    padding-top: 8%;
+    margin: auto;
+    left: -50px;
+}
+
+.bttn ul {
+    border: 3px solid #fff;
+    border-radius: 20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 120px;
+    padding-left: 50px;
+    transition: all ease-out .5s ;
+}
+
+.bttn ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.bttn ul li a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    right: 15px;
+    transition: all .4s;
+}
+
+.bttn ul:hover,
+.bttn ul li a:hover {
+    letter-spacing: 8px;
+    padding-right: 140px;
+    cursor: pointer;
+}
+
+section {
+    height: 75vh;
+    width: 100%;
+}
+
+section img {
+    height: 70px;
+    width: auto;
+}
+
+.menu {
+    padding-left: 15%;
+    padding-top: 60px;
+}
+
+.tab1,.tab2,.tab3 {
+    display: inline-block;
+    height: 350px;
+    width: 50vh;
+    
+}
+
+.tab1 {
+    border: 3px solid #AD974F;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+
+}
+
+.tab2 {
+    border: 3px solid #AD974F;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.tab3 {
+    border: 3px solid #AD974F;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.tab1 h3,.tab2 h3,.tab3 h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 8px;
+}
+
+.tab1 ul li,.tab2 ul li,.tab3 ul li {
+    font-size: 18px;
+    list-style: none;
+    padding-left: 50px;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.ull1,.ull2,.ull3{
+    margin-top: 45px;
+}
+
+.ull1 img,.ull2 img,.ull3 img {
+    height: 13px;
+    width: auto;
+}
