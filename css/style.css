@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.back {
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/img/katja-rooke-77JACslA8G0-unsplash.jpg);
+
+}
+
+.navbar1 {
+    border-bottom: 3px solid #555;
+    height: 80px;
+}
+
+.navbar {
+    width: 85%;
+    padding: 15px 0;
+    margin-left: 5%;
+    
+}
+
+.navbar ul li {
+    list-style: none;
+    font-size: 20px;
+    list-style: none;
+    display: inline-block;
+    margin: 20px 0;
+    padding-right: 90px;
+}
+
+.navbar ul li a:link,
+.navbar ul li a:visited {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a:active{
+    border-bottom: 5px solid aqua;
+}
+
+.if {
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    top: 20px;
+    left: 85%;
+    transition: color 0.4s;
+} 
+
+.pp p {
+    color: #fff;
+}
+
+.title {
+    position: relative;
+    padding-top: 8%;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+
+}
+
+.title1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 60px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.title2 {
+    color: #fff;
+    text-align: center;
+    padding-top: 23px;
+    font-size: 15px;
+}
+
+.butt {
+    margin-top: 5%;
+    /* position: relative; */
+}
+
+.ull {
+    position: relative;
+    padding-top: 20px;
+    
+    
+}
+
+.butt ul li {
+    cursor: pointer;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    transition: all .5s;
+}
+
+.btn2 {
+    position: relative;
+    left: 100px;
+}
+
+.btn1,.btn2 {
+    
+    border:  3px solid #0984e3;
+    border-radius: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    margin-right:10%;
+}
+
+.btn1 a,.btn2 a{
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.butt ul li:hover {
+    padding: auto;
+    background: #0984e3;
+}
+
+.bttn {
+    padding: 0 15% 0 15%;
+
+}
